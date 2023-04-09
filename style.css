@@ -1,0 +1,274 @@
+body{
+     background-color:black;
+    }
+
+    .slunce{
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    margin-top: 35%;
+    background-color: rgb(255, 81, 0);
+    border-radius: 50%;
+    box-shadow:
+    0 0 3px 1px #e63b07,  
+    0 0 6px 3px rgb(255, 136, 0), 
+    0 0 8px 5px rgb(255, 166, 0);
+    }
+
+    .orbit1{
+    margin: auto;
+    width: 110px;
+    height: 110px;
+    margin-top: -94px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    animation: orbita 4s infinite linear;
+    }
+
+    .merkur{
+    background-color: rgb(34, 33, 33);
+    margin: auto;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    margin-top: -5%;
+    box-shadow: inset 0px -2px 4px 1px rgb(197, 197, 202); 
+    }
+
+    @keyframes orbita{
+    0%{transform: rotate(0deg)}
+    100%{transform: rotate(360deg);}
+    }
+
+    .venuše{
+    background-color: rgb(29, 21, 10);
+    margin: auto;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    margin-top: -5%;
+    box-shadow: inset 0px -3px 4px 0px rgb(87, 66, 50);
+    }
+
+    .orbit2{
+    margin: auto;
+    width: 190px;
+    height: 190px;
+    margin-top: -155px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    animation: orbita 11s infinite linear; 
+    }
+
+    .země{
+    background-color: rgb(14, 14, 78);
+    margin: auto;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    margin-top: -5%; 
+    box-shadow: inset 0px -5px 6px 0px rgb(14, 17, 209);
+    }
+ 
+    .orbit3{
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    margin-top: -228px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    animation: orbita 18s infinite linear;
+    }
+   
+    .orbit4{
+    margin: auto;
+    width: 440px;
+    height: 440px;
+    margin-top: -355px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    animation: orbita 34s infinite linear;
+    }
+
+    .mars{
+    background-color: rgb(73, 24, 9);
+    margin: auto;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    margin-top: -2%;
+    box-shadow: inset 0px -4px 6px 0px rgb(235, 116, 5);
+    }
+ 
+    .orbit5{
+    margin: auto;
+    width: 580px;
+    height: 580px;
+    margin-top: -515px;
+    border: 1px solid whitesmoke;
+    border-radius: 50%;
+    animation: orbita 216s infinite linear;
+    }
+
+    .jupiter{
+    background-color: rgb(34, 27, 25);
+    margin: auto;
+    width: 64px; 
+    height: 64px; 
+    border-radius: 50%; 
+    margin-top: -4%;
+    box-shadow: inset 0px -5px 6px 0px rgb(161, 131, 102);
+    
+    }
+ 
+    .orbit6{ 
+    margin: auto; 
+    width: 740px;  
+    height: 740px;  
+    margin-top: -660px;   
+    border: 1px solid whitesmoke;   
+    border-radius: 50%;   
+    animation: orbita 529s infinite linear;
+    
+    }
+
+    .saturn{
+    background-color: rgb(37, 30, 27);
+    margin: auto;
+    width: 54px; 
+    height: 54px; 
+    border-radius: 50%; 
+    margin-top: 12%;
+    box-shadow: inset 0px -8px 6px 0px rgb(231, 175, 121);
+    }
+
+    .prstenec1{
+    margin: auto; 
+    width: 75px;  
+    height: 75px;  
+    margin-top: -5%;   
+    border: 1px solid rgb(36, 29, 24);   
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 6px 4px rgb(231, 175, 121);
+    }
+
+    .orbit7{
+    margin: auto; 
+    width: 880px;  
+    height: 880px;  
+    margin-top: -820px;   
+    border: 1px solid whitesmoke;   
+    border-radius: 50%;   
+    animation: orbita 1534s infinite linear;
+    }
+
+    .uran{
+    background-color: rgb(41, 52, 54);
+    margin: auto;
+    width: 44px; 
+    height: 44px; 
+    border-radius: 50%; 
+    margin-top: -3%;
+    box-shadow: inset 0px -8px 6px 0px rgb(190, 215, 231);
+    }
+
+    .orbit8{
+    margin: auto; 
+    width: 1000px;  
+    height: 1000px;  
+    margin-top: -940px;   
+    border: 1px solid whitesmoke;   
+    border-radius: 50%;   
+    animation: orbita 3010s infinite linear;
+    margin-bottom: 10%;
+
+    }
+
+    .neptun{
+    background-color: rgb(28, 31, 48);
+    margin: auto;
+    width: 44px; 
+    height: 44px; 
+    border-radius: 50%; 
+    margin-top: -3%;
+    box-shadow: inset 0px -8px 6px 0px rgb(52, 50, 182);
+    }
+
+    .b1{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+    .b2{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+     
+    }
+
+    .b3{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+    .b4{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+    .b5{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+    .b6{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+    .b7{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+    .b8{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     font-size: 34px;
+     position: relative;
+    }
+
+     button:hover{
+     color: aliceblue;
+
+
+    }
