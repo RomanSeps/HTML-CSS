@@ -1,20 +1,29 @@
+
 body{
+     /*Tímto měníme barvu pozadí*/
      background-color:black;
     }
 
+    /*Zde nastavujeme parametry slunce*/
     .slunce{
+     /*Margin, výšku, šířku*/
     margin: auto;
     width: 75px;
     height: 75px;
     margin-top: 35%;
+    /*Barva*/
     background-color: rgb(255, 81, 0);
+    /*Tvar*/
     border-radius: 50%;
+    /*Stíny*/
     box-shadow:
     0 0 3px 1px #e63b07,  
     0 0 6px 3px rgb(255, 136, 0), 
     0 0 8px 5px rgb(255, 166, 0);
+    /*Viditelnost*/
+    visibility: hidden;
     }
-
+    /*Zde nastavujeme parametry oběžné dráhy 1*/
     .orbit1{
     margin: auto;
     width: 110px;
@@ -22,9 +31,11 @@ body{
     margin-top: -94px;
     border: 1px solid whitesmoke;
     border-radius: 50%;
+    /*Animace pro oběh planet*/
     animation: orbita 4s infinite linear;
-    }
 
+    }
+    /*Zde nastavujeme parametry planety Merkur*/
     .merkur{
     background-color: rgb(34, 33, 33);
     margin: auto;
@@ -33,13 +44,14 @@ body{
     border-radius: 50%;
     margin-top: -5%;
     box-shadow: inset 0px -2px 4px 1px rgb(197, 197, 202); 
+    visibility: hidden;
     }
-
+    /*Toto je animace oběhu planet*/
     @keyframes orbita{
     0%{transform: rotate(0deg)}
     100%{transform: rotate(360deg);}
     }
-
+    /*Zde nastavujeme parametry planety Venuše*/
     .venuše{
     background-color: rgb(29, 21, 10);
     margin: auto;
@@ -48,8 +60,9 @@ body{
     border-radius: 50%;
     margin-top: -5%;
     box-shadow: inset 0px -3px 4px 0px rgb(87, 66, 50);
+    visibility: hidden;
     }
-
+    /*Zde nastavujeme parametry oběžné dráhy 2*/
     .orbit2{
     margin: auto;
     width: 190px;
@@ -58,8 +71,9 @@ body{
     border: 1px solid whitesmoke;
     border-radius: 50%;
     animation: orbita 11s infinite linear; 
-    }
 
+    }
+    /*Zde nastavujeme parametry planety Země*/
     .země{
     background-color: rgb(14, 14, 78);
     margin: auto;
@@ -68,8 +82,9 @@ body{
     border-radius: 50%;
     margin-top: -5%; 
     box-shadow: inset 0px -5px 6px 0px rgb(14, 17, 209);
+    visibility: hidden;
     }
- 
+    /*Zde nastavujeme parametry oběžné dráhy 3*/
     .orbit3{
     margin: auto;
     width: 260px;
@@ -78,8 +93,9 @@ body{
     border: 1px solid whitesmoke;
     border-radius: 50%;
     animation: orbita 18s infinite linear;
+
     }
-   
+   /*Zde nastavujeme parametry oběžné dráhy 4*/
     .orbit4{
     margin: auto;
     width: 440px;
@@ -88,8 +104,9 @@ body{
     border: 1px solid whitesmoke;
     border-radius: 50%;
     animation: orbita 34s infinite linear;
-    }
 
+    }
+    /*Zde nastavujeme parametry planety Mars*/
     .mars{
     background-color: rgb(73, 24, 9);
     margin: auto;
@@ -98,8 +115,9 @@ body{
     border-radius: 50%;
     margin-top: -2%;
     box-shadow: inset 0px -4px 6px 0px rgb(235, 116, 5);
+    visibility: hidden;
     }
- 
+    /*Zde nastavujeme parametry oběžné dráhy 5*/
     .orbit5{
     margin: auto;
     width: 580px;
@@ -108,8 +126,9 @@ body{
     border: 1px solid whitesmoke;
     border-radius: 50%;
     animation: orbita 216s infinite linear;
-    }
 
+    }
+    /*Zde nastavujeme parametry planety Jupiter*/
     .jupiter{
     background-color: rgb(34, 27, 25);
     margin: auto;
@@ -118,9 +137,9 @@ body{
     border-radius: 50%; 
     margin-top: -4%;
     box-shadow: inset 0px -5px 6px 0px rgb(161, 131, 102);
-    
+    visibility: hidden;
     }
- 
+    /*Zde nastavujeme parametry oběžné dráhy 6*/
     .orbit6{ 
     margin: auto; 
     width: 740px;  
@@ -129,9 +148,9 @@ body{
     border: 1px solid whitesmoke;   
     border-radius: 50%;   
     animation: orbita 529s infinite linear;
-    
-    }
 
+    }
+    /*Zde nastavujeme parametry planety Saturn*/
     .saturn{
     background-color: rgb(37, 30, 27);
     margin: auto;
@@ -140,8 +159,9 @@ body{
     border-radius: 50%; 
     margin-top: 12%;
     box-shadow: inset 0px -8px 6px 0px rgb(231, 175, 121);
+    visibility: hidden;
     }
-
+    /*Zde nastavujeme prstenec*/
     .prstenec1{
     margin: auto; 
     width: 75px;  
@@ -150,8 +170,9 @@ body{
     border: 1px solid rgb(36, 29, 24);   
     border-radius: 50%;
     box-shadow: inset 0px 0px 6px 4px rgb(231, 175, 121);
-    }
 
+    }
+    /*Zde nastavujeme parametry oběžné dráhy 7*/
     .orbit7{
     margin: auto; 
     width: 880px;  
@@ -160,8 +181,9 @@ body{
     border: 1px solid whitesmoke;   
     border-radius: 50%;   
     animation: orbita 1534s infinite linear;
-    }
 
+    }
+    /*Zde nastavujeme parametry planety Uran*/
     .uran{
     background-color: rgb(41, 52, 54);
     margin: auto;
@@ -170,8 +192,9 @@ body{
     border-radius: 50%; 
     margin-top: -3%;
     box-shadow: inset 0px -8px 6px 0px rgb(190, 215, 231);
+    visibility: hidden;
     }
-
+    /*Zde nastavujeme parametry oběžné dráhy 8*/
     .orbit8{
     margin: auto; 
     width: 1000px;  
@@ -183,7 +206,7 @@ body{
     margin-bottom: 10%;
 
     }
-
+    /*Zde nastavujeme parametry planety Neptun*/
     .neptun{
     background-color: rgb(28, 31, 48);
     margin: auto;
@@ -192,8 +215,20 @@ body{
     border-radius: 50%; 
     margin-top: -3%;
     box-shadow: inset 0px -8px 6px 0px rgb(52, 50, 182);
+    visibility: hidden;
     }
-
+    /*Zde nastavujeme tlačítka*/
+    .b0{
+     margin: auto;
+     border: none;
+     background: none;
+     color: rgb(117, 119, 121);
+     /*Velikost písma*/
+     font-size: 34px;
+     /*Pozice*/
+     position: relative;
+    }
+    /*Zde nastavujeme tlačítka*/
     .b1{
      margin: auto;
      border: none;
@@ -202,7 +237,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b2{
      margin: auto;
      border: none;
@@ -212,7 +247,7 @@ body{
      position: relative;
      
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b3{
      margin: auto;
      border: none;
@@ -221,7 +256,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b4{
      margin: auto;
      border: none;
@@ -230,7 +265,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b5{
      margin: auto;
      border: none;
@@ -239,7 +274,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b6{
      margin: auto;
      border: none;
@@ -248,7 +283,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b7{
      margin: auto;
      border: none;
@@ -257,7 +292,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme tlačítka*/
     .b8{
      margin: auto;
      border: none;
@@ -266,9 +301,7 @@ body{
      font-size: 34px;
      position: relative;
     }
-
+    /*Zde nastavujeme změnu barvy tlačítek, při přejetí přes tlačítko*/
      button:hover{
      color: aliceblue;
-
-
     }
