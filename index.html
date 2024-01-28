@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,55 +9,115 @@
 </head>
 
 <body>
+    
+<!--Tlačítka zatím pouze zobrazují planety-->
+<!--Prostá tlačítka :D -->
+<button class="b0" onclick="b0()" id="">Sun</button>
+<button class="b1" onclick="b1()" id="">Mercury</button>
+<button class="b2" onclick="b2()" id="">Venus</button>
+<button class="b3" onclick="b3()" id="">Earth</button>
+<button class="b4" onclick="b4()" id="">Mars</button>
+<button class="b5" onclick="b5()" id="">Jupiter</button>
+<button class="b6" onclick="b6()" id="">Saturn</button>
+<button class="b7" onclick="b7()" id="">Uranus</button>
+<button class="b8" onclick="b8()" id="">Neptune</button>
 
-<button class="b1">Mercury</button>
-<button class="b2">Venus</button>
-<button class="b3">Earth</button>
-<button class="b4">Mars</button>
-<button class="b5">Jupiter</button>
-<button class="b6">Saturn</button>
-<button class="b7">Uranus</button>
-<button class="b8">Neptune</button>
+<script>
+    //Následující funkce mění viditelnost planet
+    //Nejprve najdou určitou planetu pomocí "id" a poté ji zviditelní
+    function b0(){
+    const side = document.getElementById("div1")
+    side.style.visibility = "visible"
+    }
 
- <div class="slunce"></div>
+    function b1(){
+    const side = document.getElementById("div2")
+    side.style.visibility = "visible"
+    }
+
+    function b2(){
+    const side = document.getElementById("div3")
+    side.style.visibility = "visible"
+    }
+
+    function b3(){
+    const side = document.getElementById("div4")
+    side.style.visibility = "visible"
+    }
+
+    function b4(){
+    const side = document.getElementById("div5")
+    side.style.visibility = "visible"
+    }
+
+    function b5(){
+    const side = document.getElementById("div6")
+    side.style.visibility = "visible"
+    }
+
+    function b6(){
+    const side = document.getElementById("div7")
+    side.style.visibility = "visible"
+    }
+
+    function b7(){
+    const side = document.getElementById("div8")
+    side.style.visibility = "visible"
+    }
+
+    function b8(){
+    const side = document.getElementById("div9")
+    side.style.visibility = "visible"
+    }
+</script>
+
+<!--Zde můžeme vidět různé "divy" které slouží k designu určitých planet / hvězd-->
+ <div class="slunce" id="div1"></div>
  
- <div class="orbit1">
- <div class="merkur"></div>
+ <!--Zde máme první orbitovou dráhu, společně s první planetou, Merkurem-->
+ <div class="orbit1" id="">
+ <div class="merkur" id="div2"></div>
 
  </div>
 
- <div class="orbit2">
-    <div class="venuše"></div>
+ <!--Zde máme další planetu, i s její oběžnou dráhou-->
+ <div class="orbit2" id="">
+    <div class="venuše" id="div3"></div>
  </div>
 
- <div class="orbit3">
- <div class="země"></div>
+ <!--Další-->
+ <div class="orbit3" id="">
+ <div class="země" id="div4"></div>
  </div>
 
- <div class="orbit4">
-    <div class="mars"></div>
+ <!--A další -->
+ <div class="orbit4" id="">
+    <div class="mars" id="div5"></div>
  </div>
 
- <div class="orbit5">
-    <div class="jupiter"></div>
+ <!--A další :D -->
+ <div class="orbit5" id="">
+    <div class="jupiter" id="div6"></div>
  </div>
 
-<div class="orbit6">
-    <div class="prstenec1">
-    <div class="saturn"></div>
+ <!--Další planeta, tentokrát i s "divem" navíc, tento slouží k vytvoření prstence planety -->
+<div class="orbit6" id="">
+    <div class="prstenec1" id="">
+    <div class="saturn" id="div7"></div>
     </div>
 </div>
-
-<div class="orbit7">
-    <div class="uran"></div>
+<!-- Planeta Uran -->
+<div class="orbit7" id="">
+    <div class="uran" id="div8"></div>
 </div>
 
-<div class="orbit8">
-    <div class="neptun"></div>
+<!-- A nakonce planeta Neptun-->
+<div class="orbit8" id="">
+    <div class="neptun" id="div9"></div>
 </div>
 
 
 </body>
 
 </html>
- 
+
